@@ -21,4 +21,4 @@ platforms:
 suites:
   - name: default
     run_list:
-    - recipe[role-fical-api]
+    - recipe[role-fical]

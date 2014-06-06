@@ -1,4 +1,15 @@
 GIT
+  remote: git://github.com/balanced-cookbooks/test-kitchen.git
+  revision: 7ee10845a4f66e4d368499b9fe9bfb29da703008
+  specs:
+    test-kitchen (1.2.2.dev)
+      mixlib-shellout (~> 1.2)
+      net-scp (~> 1.1)
+      net-ssh (~> 2.7)
+      safe_yaml (~> 1.0)
+      thor (~> 0.18)
+
+GIT
   remote: git://github.com/berkshelf/berkshelf.git
   revision: c15a286def92202d5455bc1cf898c66db047173e
   specs:
@@ -48,17 +59,6 @@ GIT
     kitchen-ec2 (0.8.1.dev)
       fog
       test-kitchen (~> 1.0)
-
-GIT
-  remote: git://github.com/test-kitchen/test-kitchen.git
-  revision: 3d3d024443e89bb5a7182e22b5ce2e59b8964853
-  specs:
-    test-kitchen (1.2.2.dev)
-      mixlib-shellout (~> 1.2)
-      net-scp (~> 1.1)
-      net-ssh (~> 2.7)
-      safe_yaml (~> 1.0)
-      thor (~> 0.18)
 
 GEM
   remote: https://rubygems.org/
